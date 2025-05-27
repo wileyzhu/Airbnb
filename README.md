@@ -26,11 +26,11 @@ Streamlit is included as an optional interface to interact with the results visu
 ## How to Use
 
 1. Install dependencies:
-
+```bash
 pip install -r requirements.txt
 
 2. (Optional) Run the interactive app:
-
+```bash
 streamlit run app.py
 
 Data
