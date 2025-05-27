@@ -27,7 +27,6 @@ Streamlit is included as an optional interface to interact with the results visu
 
 1. Install dependencies:
 
-```bash
 pip install -r requirements.txt
 
 2. (Optional) Run the interactive app:
