@@ -8,7 +8,7 @@ This project analyzes Airbnb listings in London using data exploration, mapping,
 - **Map-Based Analysis** — Neighborhood-level pricing, review scores, and listing locations
 - **Text Analysis** — Word cloud and LDA topic modeling of customer reviews
 
-## How to Use
+Understood. Here’s the corrected version with no extra commentary:
 
 ## How to Use
 
@@ -17,15 +17,11 @@ This project analyzes Airbnb listings in London using data exploration, mapping,
 ```bash
 pip install -r requirements.txt
 
-### 2. (Optional) Run the interactive app
+2. (Optional) Run the interactive app
 
-```bash
 streamlit run app.py
 
-
-⸻
-
-Data
+### Data
 
 Files used:
 	•	listings.csv
@@ -35,8 +31,6 @@ Files used:
 	•	neighbourhoods.geojson
 
 These are standard Airbnb datasets for London, preprocessed for analysis.
-
-⸻
 
 Author
 
