@@ -1,36 +1,22 @@
 # 🏡 Airbnb London Data Analysis
 
-This project explores Airbnb listings in London through data analysis, geospatial visualization, and basic text mining.
+This project analyzes Airbnb listings in London using data exploration, mapping, and text mining. Streamlit is included as an optional interface to make the analysis interactive.
 
-## Overview
+## Features
 
-The analysis focuses on:
-
-- **Host Pricing Trends**: Identifying pricing patterns of top hosts
-- **Geospatial Insights**: Mapping listing prices and review scores by neighbourhood
-- **Customer Reviews**: Using topic modeling (LDA) to uncover common themes in reviews
-
-Streamlit is included as an optional interface to interact with the results visually.
-
-## Key Components
-
-- **Data Cleaning & Aggregation**: Merging listings, calendar, and review data
-- **Visualization**:
-  - Line plots of host prices over time (Plotly)
-  - Choropleth and cluster maps (Folium)
-  - Word clouds and topic models (Gensim + pyLDAvis)
-- **Optional App (Streamlit)**:
-  - Pages include host trends, map dashboard, and review analysis
-  - Use caching to speed up page switches
+- **Host Pricing Trends** — Weekly price patterns of the top 10 hosts
+- **Map-Based Analysis** — Neighborhood-level pricing, review scores, and listing locations
+- **Text Analysis** — Word cloud and LDA topic modeling of customer reviews
 
 ## How to Use
 
-1. Install dependencies:
+### 1. Install dependencies
+
 ```bash
 pip install -r requirements.txt
 
-2. (Optional) Run the interactive app:
-```bash
+2. (Optional) Run the interactive app
+
 streamlit run app.py
 
 Data
@@ -42,9 +28,12 @@ Files used:
 	•	reviews-2.csv
 	•	neighbourhoods.geojson
 
-These are standard Airbnb datasets for London, preprocessed for use.
+These are standard Airbnb datasets for London, preprocessed for analysis.
 
 Author
 
-Created by [Wiley Zhu] as part of a data analytics project on the London Airbnb market.
+Created by Wiley Zhu as part of a data analytics project on the London Airbnb market.
 
+---
+
+Let me know if you'd like me to auto-generate the `requirements.txt` from your code as well.
