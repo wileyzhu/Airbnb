@@ -10,14 +10,6 @@ This project analyzes Airbnb listings in London using data exploration, mapping,
 
 ## How to Use
 
-Thanks for pointing that out — I see the problem now.
-
-Your entire “How to Use” section is wrapped inside a code block, so things like bullet points and text formatting don’t render properly. Here’s the corrected Markdown version without that issue:
-
-⸻
-
-✅ Fixed Version (Copy & Paste This)
-
 ## How to Use
 
 ### 1. Install dependencies
@@ -25,8 +17,9 @@ Your entire “How to Use” section is wrapped inside a code block, so things l
 ```bash
 pip install -r requirements.txt
 
-2. (Optional) Run the interactive app
+### 2. (Optional) Run the interactive app
 
+```bash
 streamlit run app.py
 
 
