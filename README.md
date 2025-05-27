@@ -30,10 +30,8 @@ Files used:
 
 These are standard Airbnb datasets for London, preprocessed for analysis.
 
+⸻
+
 Author
 
 Created by Wiley Zhu as part of a data analytics project on the London Airbnb market.
-
----
-
-Let me know if you'd like me to auto-generate the `requirements.txt` from your code as well.
