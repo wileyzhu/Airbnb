@@ -2,3 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
+.gitattributes
+.gitignore
+README.md
+pages/
+vis/
