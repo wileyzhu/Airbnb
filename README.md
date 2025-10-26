@@ -1,31 +1,75 @@
-# Airbnb London Data Analysis
+# 🏠 Airbnb Data Dashboard
 
-This project analyzes Airbnb listings in London, including pricing trends, geographic patterns, and customer reviews. It includes optional interactive features using Streamlit.
+Simple Streamlit dashboard for analyzing Airbnb listings data from London.
 
-## How to Use
+## � Datak Source
 
-1. Install the required packages:
+Data downloaded from: [Inside Airbnb](https://insideairbnb.com/get-the-data.html)
+- **City**: London, United Kingdom
+- **Dataset**: Listings, Reviews, and Calendar data
 
-pip install pandas numpy streamlit plotly folium geopandas branca gensim nltk spacy pyLDAvis streamlit-folium
+## 🚀 Quick Start
 
-2. (Optional) Run the app:
+### 1. Create Data Directory
+```bash
+mkdir Data
+# Add your CSV files to the Data directory
+```
 
-streamlit run app.py
+Required files:
+- `Data/listings.csv`
+- `Data/listings-2.csv`
+- `Data/reviews-2.csv`
+- `Data/calendar.csv`
 
-## Data Source
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
 
-Data downloaded from:  
-https://insideairbnb.com/get-the-data.html  
-(city: London)
+### 3. Run the Dashboard
+```bash
+python run.py
+```
 
-## Files Used
+Or directly:
+```bash
+streamlit run app_simple.py
+```
 
-- listings.csv  
-- listings-2.csv  
-- calendar.csv  
-- reviews-2.csv  
-- neighbourhoods.geojson
+## � Feratures
 
-## Author
+- **Dataset Overview**: View metrics and data information
+- **Price Analysis**: Distribution, statistics, and neighborhood comparisons
+- **Basic Charts**: Room types, top hosts, visualizations
+- **Data Explorer**: Interactive column analysis and filtering
 
-Wiley Zhu
+## � Prgoject Structure
+```
+Airbnb-1/
+├── app_simple.py         # Main dashboard (simple version)
+├── Data/                 # Your CSV files go here
+├── requirements.txt      # Dependencies
+├── run.py               # Simple launcher
+└── README.md            # This file
+```
+
+## 💡 Notes
+
+- Uses matplotlib for charts (no dependency conflicts)
+- Works with any pandas version
+- Automatically samples large datasets for performance
+- Clean, user-friendly interface
+
+## 📖 About the Data
+
+This dashboard analyzes Airbnb data from London, sourced from [Inside Airbnb](https://insideairbnb.com/), an independent, non-commercial project that provides data about Airbnb's impact on residential communities.
+
+**Dataset includes:**
+- Detailed listings information (property types, prices, locations)
+- Guest reviews and ratings
+- Calendar availability and pricing
+- Host information and statistics
+
+---
+*Built with Streamlit | Data from Inside Airbnb*
